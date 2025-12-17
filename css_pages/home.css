@@ -1,0 +1,340 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #f0fdfc;
+}
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1.5px solid black;
+  position: sticky;
+  top: 0px;
+  background-color: #f0fdfc;
+  color: #00b386;
+}
+
+#logo {
+  height: 75px;
+  width: 90px;
+}
+#name a {
+  margin-left: 10px;
+  color: #00b386;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navmenu {
+  margin-left: 450px;
+}
+#navmenu ul {
+  display: flex;
+  gap: 50px;
+}
+#navmenu ul li {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  list-style: none;
+  font-weight: bold;
+}
+#navmenu ul li a {
+  text-decoration: none;
+  color: #007b8f;
+}
+#navmenu ul li a:hover {
+  color: white;
+}
+#navmenu ul li:hover {
+  transform: scale(1.1);
+  background-color: #00b386;
+  padding: 3px;
+  border-radius: 5px;
+}
+#headerbtn {
+  margin-left: 100px;
+  display: flex;
+  gap: 30px;
+}
+#headerbtn button {
+  padding: 9px;
+  width: 84px;
+  border-radius: 10px;
+  background-color: #00b386;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+#headerbtn button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#headerbtn button a {
+  text-decoration: none;
+  color: white;
+}
+#herosec {
+  margin-top: 20px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #f0fdfc;
+}
+#heroimg {
+  height: 500px;
+  width: 100%;
+  border: 1.5px solid black;
+  background-image: url(../asset/herosec_img.webp);
+  display: flex;
+}
+
+.herosec_quotes {
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  margin-left: 1000px;
+  margin-top: 180px;
+  color: #007b8f;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#herocontent {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#herocontent h2 {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #007b8f;
+}
+#herocontent p {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #333333;
+}
+#herobutton {
+  display: flex;
+  gap: 40px;
+}
+#herobutton button {
+  border-radius: 15px;
+  width: 200px;
+  padding: 13px;
+  font-weight: bolder;
+  font-size: 17px;
+  background-color: #00b386;
+  border: none;
+  color: white;
+}
+#herobutton button a {
+  text-decoration: none;
+  color: white;
+}
+#herobutton button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.homecontainer {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+  background-color: #f0fdfc;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 430px;
+  width: 320px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f0fdfc;
+}
+.card:hover {
+  transform: translatey(-10px);
+  transition: 0.7s;
+}
+.cardimg img {
+  margin-top: 5px;
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+.cardcontent h4 {
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  color: #007b8f;
+}
+.cardcontent p {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #444444;
+}
+.cardbtn {
+  margin-top: 20px;
+}
+.cardbtn button {
+  border-radius: 10px;
+  width: 70%;
+  height: 35px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #00b386;
+  color: white;
+  border: none;
+}
+.cardbtn button:hover {
+  transform: scale(1.1);
+}
+#circlecontainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+#herosec2 {
+  height: 350px;
+  background-color: #f0fdfc;
+  border: 1.5px solid black;
+  border-bottom: none;
+}
+.cc {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 2px solid #007b8f;
+  background-color: #f0fdfc;
+}
+.cc img {
+  border-radius: 90%;
+  width: 90%;
+}
+.circle h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #007b8f;
+}
+.hero2cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: #007b8f;
+}
+.circle {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#impact_stories {
+  height: 380px;
+  border: 1.5px solid black;
+  background-color: #f0fdfc;
+  border-bottom: none;
+}
+#impact_stories h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  color: #007b8f;
+}
+.herosec3_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+.sc {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: 2px solid #007b8f;
+}
+.sc img {
+  height: 60px;
+  width: 100%;
+  border-radius: 100%;
+}
+.s_story {
+  padding: 10px;
+  height: 200px;
+  width: 480px;
+  border: 2px solid black;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #f0fdfc;
+}
+.s_story h3 {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #007b8f;
+}
+.story_container1 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.story_container2 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+}
+#impact_statics {
+  height: 250px;
+  border: 1.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f0fdfc;
+  border-bottom: none;
+}
+.statics_container {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+.statics_container h3 {
+  margin-top: 25px;
+  font-size: 30px;
+  color: #007b8f;
+}
+.statics_container p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+}
+#footer {
+  height: 200px;
+  width: 99.7%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #007b8f;
+  color: white;
+}
+.footer_containerdiv {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 250px;
+  gap: 5px;
+}
+.footer_containerdiv a {
+  text-decoration: none;
+  color: white;
+}

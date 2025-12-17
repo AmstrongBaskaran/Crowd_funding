@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Givers - Register</title>
+    <link rel="stylesheet" href="../css_pages/signin.css" />
+  </head>
+  <body>
+    <div class="signin_container">
+      <h3>Welcome To Life Givers</h3>
+      <h6>Register Your Account</h6>
+
+      <form class="s_container2">
+        <div class="role">
+          <label><input type="radio" name="role" value="Donor" /> Donor</label>
+          <label
+            ><input type="radio" name="role" value="Fundraiser" />
+            Fundraiser</label
+          >
+        </div>
+
+        <label for="fullname">Full Name:</label>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Enter your full name"
+          required
+        />
+
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          required
+        />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          placeholder="Confirm your password"
+          required
+        />
+
+        <button type="submit" id="signin_btn">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>

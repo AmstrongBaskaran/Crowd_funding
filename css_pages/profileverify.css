@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    background-color: #f0fdfc;
+}
+.container{
+    height:87.45vh;
+    width:78%;
+    border: 2px solid black;
+    border-left: none;
+    overflow-y: scroll; 
+    padding-top: 100px;   
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    height: 100px;
+    width: 90%;
+    border: 1px solid black;
+    margin: 30px auto;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    background-color: #f0fdfc;
+    box-shadow: 0 0 2px rgba(0, 123, 143, 0.6);
+}
+.images{
+    height:80%;
+    width: 100px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 5px;
+    gap: 15px;
+
+}
+.cont2{
+    display: flex;
+    gap: 50px;
+}
+.btn a button {
+    height: 40px;
+    width: 150px;
+    background-color: #00bfa5;
+    color: white;
+    border-style:none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+.btn{
+    position:absolute;
+    right:50px;
+    top: 32px;
+    
+}
+
+.btn a button:hover{
+    cursor: pointer;
+}
+h4{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,128 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.strt_compaign1 {
+  height: 550px;
+  width: 60%;
+  border: 1px solid black;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 123, 143, 0.6);
+}
+.strt_compaign1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.progres_title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.progress_bar {
+  height: 20px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.progress{
+    height: 100%;
+    width: 16%;
+    border-radius:50px;
+    background: linear-gradient(to right, #00b386, #007b8f);
+
+}
+.progress_name {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.progres_title p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.compaign_title {
+  margin-top: 50px;
+}
+.compaign_title label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.compaign_title input {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.753);
+}
+.compaign_title input::placeholder {
+  color: rgba(88, 84, 84, 0.582);
+  font-size: 14px;
+  text-align: center;
+}
+.compaign_content2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.compaign_content2 label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+}
+.compaign2 input::placeholder {
+  text-align: center;
+}
+.compaign1 select {
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+#target_amount {
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.compaign_content3 label {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.compaign_content3 input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.753);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.buttons button {
+  padding: 10px 70px;
+  border-radius: 25px;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #00b386;
+  color: white;
+}
+.buttons a  button{
+  text-decoration: none;
+  color: white;
+}
+

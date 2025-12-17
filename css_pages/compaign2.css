@@ -1,0 +1,112 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.strt_compaign1 {
+  height: 500px;
+  width: 60%;
+  border: 1px solid black;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 123, 143, 0.6);
+}
+.strt_compaign1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.progres_title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.progress_bar {
+  height: 20px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.progress {
+  height: 100%;
+  width: 30%;
+  border-radius: 50px;
+  background: linear-gradient(to right, #00b386, #007b8f);
+}
+.progress_name {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.progres_title p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.compaign_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.patient_name label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.patient_name input {
+  height: 40px;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.age label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.age input {
+  height: 40px;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.compaign_content2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.compaign_content2 label{
+  font-size: 20px;
+  font-weight: bold;
+}
+.compaign_content2 input{
+  height: 40px;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.compaign_content2 select{
+  height: 40px;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.buttons button {
+  padding: 10px 70px;
+  border-radius: 25px;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #00b386;
+}
+.buttons a button{
+  text-decoration: none;
+  color: white;  
+}
+
