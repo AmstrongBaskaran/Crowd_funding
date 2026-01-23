@@ -256,18 +256,8 @@
             </div>
           </div>
         </div>
-        <div class="details" style="display:none;">
-          <h4>Additional Details:</h4>
-          <p><strong>Documents Submitted:</strong> Medical Report, Hospital Bill, ID Proof</p>
-          <p><strong>Contact:</strong> mkstalin@example.com | +91 9876543210</p>
-          <p><strong>Story:</strong> Needs urgent heart surgery due to critical condition.</p>
-        </div>
         <div class="btn">
-          <button class="verify-btn">Verify</button>
-        </div>
-        <div class="action-btns" style="display:none;">
-          <button class="approve-btn">Approve</button>
-          <button class="reject-btn">Reject</button>
+          <a href=""><button>Verify</button></a>
         </div>
       </div>
       <div class="box">
@@ -301,43 +291,5 @@
         </div>
       </div>
     </div>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const verifyButtons = document.querySelectorAll('.verify-btn');
-        verifyButtons.forEach(button => {
-          button.addEventListener('click', function() {
-            const box = this.closest('.box');
-            const details = box.querySelector('.details');
-            const actionBtns = box.querySelector('.action-btns');
-            const btnDiv = box.querySelector('.btn');
-            
-            // Hide verify button
-            btnDiv.style.display = 'none';
-            
-            // Show details and action buttons
-            details.style.display = 'block';
-            actionBtns.style.display = 'block';
-          });
-        });
-        
-        // Optional: Add functionality to approve/reject buttons
-        const approveButtons = document.querySelectorAll('.approve-btn');
-        const rejectButtons = document.querySelectorAll('.reject-btn');
-        
-        approveButtons.forEach(button => {
-          button.addEventListener('click', function() {
-            alert('Campaign Approved!');
-            // Here you could hide the box or change status
-          });
-        });
-        
-        rejectButtons.forEach(button => {
-          button.addEventListener('click', function() {
-            alert('Campaign Rejected!');
-            // Here you could hide the box or change status
-          });
-        });
-      });
-    </script>
   </body>
 </html>
